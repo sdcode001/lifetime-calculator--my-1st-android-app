@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Lifetime Calculator</string>
+    <string name="text_1">Lets Calculate Your Lifetime.</string>
+
+    <string name="selected_date_is">Selected Date Is--</string>
+    <string name="lets_calculate_your_lifetime">Lets Calculate Your Lifetime.</string>
+
+
+    <string name="you_live">You Live......</string>
+    <string name="hello">hello</string>
+    <string name="enter_your_birthday">Enter Your BirthDay</string>
+    <string name="todo">TODO</string>
+    <string name="lifetime_in_second">Lifetime in Second</string>
+    <string name="lifetime_in_days">Lifetime in Days</string>
+    <string name="lifetime_in_hours">Lifetime in Hours</string>
+</resources>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:src="@drawable/lifetime"
+    android:scaleType="centerCrop"
+
+    android:contentDescription="@string/todo" />
+
+
+    <TextView
+        android:id="@+id/lifetime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="@string/lets_calculate_your_lifetime"
+        android:textColor="@color/text1_color"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+
+        tools:visibility="visible" />
+
+    <Button
+        android:id="@+id/button_dob"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_below="@id/lifetime"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="@string/enter_your_birthday"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/selected_date_is"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_below="@id/button_dob"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/select_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_below="@id/select"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"/>
+    <Button
+        android:id="@+id/button1"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/select_date"
+        android:textColor="@color/white"
+        android:text="@string/lifetime_in_second" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button1"
+        android:textColor="@color/white"
+        android:text="@string/lifetime_in_hours" />
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/button2"
+        android:textColor="@color/white"
+        android:text="@string/lifetime_in_days" />
+
+
+    <TextView
+        android:id="@+id/you_live"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/you_live"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/button3"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/you_live"
+        android:textSize="40sp"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:textStyle="bold"/>
+
+
+
+
+</RelativeLayout>
